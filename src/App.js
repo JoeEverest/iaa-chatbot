@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import ChatBot from "react-simple-chatbot";
+import Faq from "./Faq";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChatBot
+      steps={Faq}
+      botAvatar={"https://iaa.ac.tz/wp-content/uploads/2019/12/New-Logo-150x150.jpg"}
+    />
   );
 }
 
