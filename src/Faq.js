@@ -307,7 +307,10 @@ const Faq = [
   },
   {
     id: "32",
-    message: "https://iaa.ac.tz/programmesList",
+    component:(
+      <a class="custom" href="https://iaa.ac.tz/programmesList">https://iaa.ac.tz/programmesList</a>
+    ),
+    asMessage: true,
     trigger: "33",
   },
   {
