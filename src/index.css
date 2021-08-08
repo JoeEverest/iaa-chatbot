@@ -10,3 +10,9 @@
 a, .custom{
   color: white;
 }
+.rsc-footer{
+  display: none !important;
+}
+.rsc-content{
+  height: 100% !important;
+}
