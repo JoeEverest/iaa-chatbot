@@ -302,11 +302,16 @@ const Faq = [
   {
     id: "31",
     message:
-      "See the attached fee structure for your program from the IAA website https://iaa.ac.tz/programmesList",
+      "See the attached fee structure for your program from the IAA website",
     trigger: "32",
   },
   {
     id: "32",
+    message: "https://iaa.ac.tz/programmesList",
+    trigger: "33",
+  },
+  {
+    id: "33",
     message: "Tuition fees can be paid in three Instalments (40%: 20% & 40%)",
     trigger: "8",
   },
