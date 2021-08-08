@@ -230,7 +230,7 @@ const Faq = [
   {
     id: "19",
     message:
-      "1. Through IAA online application. Apply at https://iaa.ac.tz/oas",
+      "1. Through IAA online application. Apply at https://iaa.ac.tz/oas. Or send us SMS or WhatsApp through +255742 833 444 for assistance",
     trigger: "20",
   },
   {
