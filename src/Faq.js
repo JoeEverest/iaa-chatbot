@@ -92,8 +92,8 @@ const Faq = [
   {
     id: "7",
     message:
-      "Entry Requirements are: Form 6 leaver  with  two principal passes which MUST make an aggregate of 4.0 points as a minimum or Foundation Programme of the OUT with a minimum GPA of 3.0 or NTA Level 6 with the GPA of 3.0. Apply at https://iaa.ac.tz/oas",
-    trigger: "8",
+      "Entry Requirements are: Form 6 leaver  with  two principal passes which MUST make an aggregate of 4.0 points as a minimum or Foundation Programme of the OUT with a minimum GPA of 3.0 or NTA Level 6 with the GPA of 3.0. Apply at",
+    trigger: "34",
   },
   {
     id: "8",
@@ -172,14 +172,14 @@ const Faq = [
   {
     id: "14",
     message:
-      "Minimum Entry Qualifications:\n Form VI (six) with at least one principal pass and one subsidiary with total points not below 1.5 or\n An appropriate  equivalent  Certificate with second class or B average OR\n NTA Level 4. Apply at https://iaa.ac.tz/oas",
-    trigger: "8",
+      "Minimum Entry Qualifications:\n Form VI (six) with at least one principal pass and one subsidiary with total points not below 1.5 or\n An appropriate  equivalent  Certificate with second class or B average OR\n NTA Level 4. Apply at",
+    trigger: "34",
   },
   {
     id: "15",
     message:
-      "Minimum Entry Qualifications:\n Form IV (four) with at least four passes in relevant subjects OR	\n Any other equivalent qualification \n Apply at https://iaa.ac.tz/oas",
-    trigger: "8",
+      "Minimum Entry Qualifications:\n Form IV (four) with at least four passes in relevant subjects OR	\n Any other equivalent qualification \n Apply at",
+    trigger: "34",
   },
   {
     id: "16",
@@ -219,8 +219,8 @@ const Faq = [
   {
     id: "17",
     message:
-      "General Minimum Entry Qualifications: Bachelor Degree with at least a Second Class from an approved Institution of Higher Learning OR A second Class Advanced Diploma from a recognized Institute or equivalent qualifications OR A professional qualification recognized by Professional bodies  OR Candidates with a PASS degree will be considered upon producing evidence of having obtained an examined Postgraduate Diploma. Apply at https://iaa.ac.tz/oas",
-    trigger: "8",
+      "General Minimum Entry Qualifications: Bachelor Degree with at least a Second Class from an approved Institution of Higher Learning OR A second Class Advanced Diploma from a recognized Institute or equivalent qualifications OR A professional qualification recognized by Professional bodies  OR Candidates with a PASS degree will be considered upon producing evidence of having obtained an examined Postgraduate Diploma. Apply at",
+    trigger: "34",
   },
   {
     id: "18",
@@ -230,8 +230,8 @@ const Faq = [
   {
     id: "19",
     message:
-      "1. Through IAA online application. Apply at https://iaa.ac.tz/oas. Or send us SMS or WhatsApp through +255742 833 444 for assistance",
-    trigger: "20",
+      "1. Through IAA online application. Apply at",
+    trigger: "35",
   },
   {
     id: "20",
@@ -317,6 +317,27 @@ const Faq = [
     id: "33",
     message: "Tuition fees can be paid in three Instalments (40%: 20% & 40%)",
     trigger: "8",
+  },
+  {
+    id: "34",
+    component:(
+      <a class="custom" href="https://iaa.ac.tz/oas">https://iaa.ac.tz/oas</a>
+    ),
+    asMessage: true,
+    trigger: "8",
+  },
+  {
+    id: "35",
+    component:(
+      <a class="custom" href="https://iaa.ac.tz/oas">https://iaa.ac.tz/oas</a>
+    ),
+    asMessage: true,
+    trigger: "36",
+  },
+  {
+    id: "36",
+    message: "Or send us SMS or WhatsApp through +255742 833 444 for assistance",
+    trigger: "20",
   },
 ];
 
