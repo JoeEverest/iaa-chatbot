@@ -1,7 +1,7 @@
 const Faq = [
   {
     id: "1",
-    message: "Hello, how can I help you?",
+    message: "Hello, In which part do you need assistance?",
     trigger: "2",
   },
   {
@@ -9,21 +9,21 @@ const Faq = [
     options: [
       {
         value: 1,
-        label: "What are the qualifications to apply?",
+        label: "Entry Qualifications",
         trigger: "3",
       },
-      { value: 2, label: "What are the modes of application ?", trigger: "18" },
+      { value: 2, label: "Modes of application", trigger: "18" },
       { value: 3, label: "Contact Information", trigger: "23" },
       { value: 4, label: "Welfare and guidance services", trigger: "22" },
-      { value: 5, label: "Does IAA provide online learning?", trigger: "28" },
+      { value: 5, label: "Blended learning", trigger: "28" },
       {
         value: 6,
-        label: "Does IAA conduct evening programmes?",
+        label: "Evening programmes",
         trigger: "29",
       },
       {
         value: 7,
-        label: "What are the tuition fees and how its paid?",
+        label: "Tuition fees",
         trigger: "30",
       },
     ],
@@ -229,8 +229,7 @@ const Faq = [
   },
   {
     id: "19",
-    message:
-      "1. Through IAA online application. Apply at",
+    message: "1. Through IAA online application. Apply at",
     trigger: "35",
   },
   {
@@ -253,20 +252,37 @@ const Faq = [
   },
   {
     id: "23",
-    message:
-      "IAA Main Campus Rector, Institute of Accountancy Arusha, Po Box 2798, Arusha Tel: +255272970232, Email: iaa@iaa.ac.tz",
+    message: `Institute of Accountancy Arusha
+      Main Campus
+      Mob: +255 763 462109
+      Tel: +255 27 2970232
+      Fax: +255 27 2970234
+      P.O.Box 2798
+      Njiro Hill, Arusha
+      Tanzania
+      Email: iaa@iaa.ac.tz`,
     trigger: "24",
   },
   {
     id: "24",
-    message:
-      "Dar Es Salaam Campus Campus Manager Po Box 69007, Dsm Tel: +255222701554 Email: CM_DSM@iaa.ac.tz ",
+    message: `Institute of Accountancy Arusha
+      Dar-es-Salaam Campus
+      ATTN: Campus Manager
+      Mob: +255 655289545
+      Tel: +255 222864823
+      TTCL Building, Kijitonyama, Dar es Saalam
+      Email: CM_DSM@iaa.ac.tz`,
     trigger: "25",
   },
   {
     id: "25",
-    message:
-      "Babati Campus Campus Manager Po Box 26, Babati- Manyara Tel: +255272970205 Email: CM_BBT@iaa.ac.tz",
+    message: `Institute of Accountancy Arusha
+      Babati Campus
+      ATTN: Campus Manager
+      Mob: +255 784244616
+      Tel: +255 272970205
+      P. O Box 26 Babati,  Manyara
+      Email: CM_BBT@iaa.ac.tz`,
     trigger: "8",
   },
   {
@@ -307,8 +323,10 @@ const Faq = [
   },
   {
     id: "32",
-    component:(
-      <a class="custom" href="https://iaa.ac.tz/programmesList">https://iaa.ac.tz/programmesList</a>
+    component: (
+      <a class="custom" href="https://iaa.ac.tz/programmesList">
+        https://iaa.ac.tz/programmesList
+      </a>
     ),
     asMessage: true,
     trigger: "33",
@@ -320,23 +338,28 @@ const Faq = [
   },
   {
     id: "34",
-    component:(
-      <a class="custom" href="https://iaa.ac.tz/oas">https://iaa.ac.tz/oas</a>
+    component: (
+      <a class="custom" href="https://iaa.ac.tz/oas">
+        https://iaa.ac.tz/oas
+      </a>
     ),
     asMessage: true,
     trigger: "8",
   },
   {
     id: "35",
-    component:(
-      <a class="custom" href="https://iaa.ac.tz/oas">https://iaa.ac.tz/oas</a>
+    component: (
+      <a class="custom" href="https://iaa.ac.tz/oas">
+        https://iaa.ac.tz/oas
+      </a>
     ),
     asMessage: true,
     trigger: "36",
   },
   {
     id: "36",
-    message: "Or send us SMS or WhatsApp through +255742 833 444 for assistance",
+    message:
+      "Or send us SMS or WhatsApp through +255742 833 444 for assistance",
     trigger: "20",
   },
 ];
