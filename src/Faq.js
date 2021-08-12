@@ -9,21 +9,21 @@ const Faq = [
     options: [
       {
         value: 1,
-        label: "Entry Qualifications",
+        label: "1. Entry Qualifications",
         trigger: "3",
       },
-      { value: 2, label: "Modes of application", trigger: "18" },
-      { value: 3, label: "Contact Information", trigger: "23" },
-      { value: 4, label: "Welfare and guidance services", trigger: "22" },
-      { value: 5, label: "Blended learning", trigger: "28" },
+      { value: 2, label: "2. Modes of application", trigger: "18" },
+      { value: 3, label: "3. Contact Information", trigger: "23" },
+      { value: 4, label: "4. Welfare and guidance services", trigger: "22" },
+      { value: 5, label: "5. Blended learning", trigger: "28" },
       {
         value: 6,
-        label: "Evening programmes",
+        label: "6. Evening programmes",
         trigger: "29",
       },
       {
         value: 7,
-        label: "Tuition fees",
+        label: "7. Tuition fees",
         trigger: "30",
       },
     ],
