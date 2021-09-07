@@ -62,7 +62,7 @@ const Faq = [
         trigger: "7",
       },
       { value: 3, label: "Banking with Apprenticeship", trigger: "7" },
-      { value: 4, label: "Bachelor of Business Management", trigger: "7" },
+      { value: 4, label: "Business Management", trigger: "7" },
       { value: 5, label: "Computer Science", trigger: "7" },
       { value: 6, label: "Finance and Banking", trigger: "7" },
       { value: 7, label: "Information Technology", trigger: "7" },
@@ -300,7 +300,7 @@ const Faq = [
   {
     id: "28",
     message:
-      "Yes, IAA offers online training for Masters programmes. For the undergraduate programmes, preparations are in progress.",
+      "Yes, IAA offers online training for Masters programmes, and for Bachelor's Degree in Business Management and Diploma in Records and Information Management. For more undergraduate programmes, preparations are in progress.",
     trigger: "8",
   },
   {

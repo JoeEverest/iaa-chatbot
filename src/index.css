@@ -13,3 +13,6 @@ a, .custom{
 .rsc-footer{
   display: none !important;
 }
+.rsc-os-option{
+  display: block !important;
+}
