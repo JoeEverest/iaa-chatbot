@@ -87,6 +87,8 @@ const Faq = [
         label: "Tourism and Hospitality with Apprenticeship",
         trigger: "7",
       },
+      { value: 17, label: "Human Resources Management", trigger: "7" },
+      { value: 18, label: "Military Science", trigger: "7" },
     ],
   },
   {
@@ -138,6 +140,8 @@ const Faq = [
         label: "Procurement and Logistics Management",
         trigger: "14",
       },
+      { value: 14, label: "Strategic Studies", trigger: "14" },
+      { value: 15, label: "Human Resources Management", trigger: "14" },
     ],
   },
   // Dip 3 years
@@ -167,6 +171,8 @@ const Faq = [
         label: "Procurement and Logistics Management",
         trigger: "15",
       },
+      { value: 16, label: "Strategic Studies", trigger: "15" },
+      { value: 17, label: "Human Resources Management", trigger: "15" },
     ],
   },
   {
@@ -214,6 +220,8 @@ const Faq = [
         label: "Science in Project Planning and Management",
         trigger: "7",
       },
+      { value: 11, label: "Arts in Peace and Security Studies", trigger: "7" },
+      { value: 12, label: "Finance and Banking", trigger: "7" },
     ],
   },
   {
