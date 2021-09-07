@@ -299,9 +299,9 @@ const Faq = [
   },
   {
     id: "28",
-    message:
-      "Yes, IAA offers online training for Masters programmes, and for Bachelor's Degree in Business Management and Diploma in Records and Information Management. For more undergraduate programmes, preparations are in progress.",
-    trigger: "8",
+    message: `Yes, IAA offers online training for Masters programmes,
+    and for Bachelor's Degree in Business Management and Diploma in Records and Information Management.`,
+    trigger: "37",
   },
   {
     id: "29",
@@ -361,6 +361,11 @@ const Faq = [
     message:
       "Or send us SMS or WhatsApp through +255742 833 444 for assistance",
     trigger: "20",
+  },
+  {
+    id: "37",
+    message: `For more undergraduate programmes, preparations are in progress.`,
+    trigger: "8",
   },
 ];
 
