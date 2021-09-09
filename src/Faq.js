@@ -142,6 +142,11 @@ const Faq = [
       },
       { value: 14, label: "Strategic Studies", trigger: "14" },
       { value: 15, label: "Human Resources Management", trigger: "14" },
+      {
+        value: 16,
+        label: "Records, Archive & Information Management",
+        trigger: "14",
+      }
     ],
   },
   // Dip 3 years
